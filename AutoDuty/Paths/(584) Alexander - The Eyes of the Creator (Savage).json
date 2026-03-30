@@ -58,17 +58,17 @@
     },
     {
       "Tag": "None",
-      "Name": "MoveTo",
+      "Name": "WaitFor",
       "Position": {
         "X": 0.0,
         "Y": 0.0,
         "Z": 0.0
       },
       "Arguments": [
-        ""
+        "IsReady"
       ],
       "Conditions": [],
-      "Note": "Extra / Filler step in case IsReady doesn't work properly."
+      "Note": ""
     },
     {
       "Tag": "None",
@@ -82,7 +82,7 @@
         ""
       ],
       "Conditions": [],
-      "Note": ""
+      "Note": "Refurbisher 0"
     }
   ],
   "Meta": {

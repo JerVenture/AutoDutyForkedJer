@@ -215,20 +215,6 @@
       "Note": ""
     },
     {
-      "Tag": "None",
-      "Name": "MoveTo",
-      "Position": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
-      },
-      "Arguments": [
-        ""
-      ],
-      "Conditions": [],
-      "Note": "Filler step in case IsReady doesn't work properly and a step is skipped while loading."
-    },
-    {
       "Tag": "Unsynced",
       "Name": "StopForCombat",
       "Position": {
@@ -507,20 +493,6 @@
       ],
       "Conditions": [],
       "Note": ""
-    },
-    {
-      "Tag": "None",
-      "Name": "MoveTo",
-      "Position": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
-      },
-      "Arguments": [
-        ""
-      ],
-      "Conditions": [],
-      "Note": "Filler step in case IsReady doesn't work properly and a step is skipped while loading."
     },
     {
       "Tag": "Unsynced",
