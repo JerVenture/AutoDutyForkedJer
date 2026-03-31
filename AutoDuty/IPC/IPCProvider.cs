@@ -48,6 +48,9 @@ namespace AutoDuty.IPC
         [EzIPC] public bool IsStopped()                        => Plugin.Stage == Stage.Stopped;
         [EzIPC] public bool ContentHasPath(uint territoryType) => ContentPathsManager.DictionaryPaths.ContainsKey(territoryType);
 
+        // Adding in integreations so that  I can call setlevelingmode
+        [EzIPC] public void SetLevelingMode(int mode) => Plugin.LevelingModeEnum = (LevelingMode)mode;
+
         //Callback for Wrath Combo Lease Cancel
         [EzIPC] public void WrathComboCallback(int reason, string s) => Wrath_IPCSubscriber.CancelActions(reason, s);
     }
